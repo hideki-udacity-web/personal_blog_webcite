@@ -1,0 +1,75 @@
+@import url(sidebar.css);
+@import url(content.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(nav.css);
+
+    .page-template-default{
+        margin: 0;
+        padding: 0;
+    }
+
+/* mobile-screen */
+@media(max-width:599px){
+    .container{
+        display: flex;
+        height: 100vh;
+        font-family: 'Noto Sans JP', sans-serif;
+        flex-direction: column;
+    }
+}
+
+/* midium-screen */
+@media(min-width: 600px) and (max-width: 900px){
+    .container{
+        display: grid;
+        height: 100vh;
+        font-family: 'Noto Sans JP', sans-serif;
+        gap: 1rem;
+        grid-template-rows: 160px 80px 1fr 80px;
+        grid-template-columns: 160px 1fr;
+        grid-template-areas: 
+        "hd hd"
+        "sd nav"
+        "sd main"
+        "ft ft";
+    }
+}
+
+/* large-screen */
+@media(min-width:901px){
+    .container{
+        display: grid;
+        height: 100vh;
+        font-family: 'Noto Sans JP', sans-serif;
+        gap: 1rem;
+        grid-template-rows: 160px 80px 1fr 80px;
+        grid-template-columns: 20% 1fr;
+        grid-template-areas: 
+        "hd hd"
+        "sd nav"
+        "sd main"
+        "ft ft";
+    }
+}
+
+    .header{
+        grid-area: hd;
+    }
+
+    .sidebar{
+        grid-area: sd;
+    }
+
+    .nav{
+        grid-area: nav;
+    }
+
+    .content{
+        grid-area: main;
+    }
+
+    .footer{
+        grid-area: ft;
+    }
+

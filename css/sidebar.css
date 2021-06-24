@@ -1,0 +1,22 @@
+@import url(button.css);
+
+.sidebar-layout{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-ul{
+    list-style: none;
+    padding-left: 2rem;
+    margin: 0;
+}
+
+.sidebar-li{
+    margin-bottom: 1rem;
+}
+
+.sidebar-box{
+    color: aqua;
+}
+
+

@@ -1,0 +1,9 @@
+.footer-layout{
+    display: flex;
+    padding: 1rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    grid-area: ft;
+    color: white;
+    background-color: rgb(43, 41, 41);
+}
