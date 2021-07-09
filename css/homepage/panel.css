@@ -1,0 +1,35 @@
+.panel{
+    position: relative;
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: 5px;
+    background-color: #80808067;
+    box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, 0.15);
+    transition: box-shadow, 0.3s;
+}
+
+.panel-link{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.panel-title{
+    padding: 0 1rem;
+}
+
+.panel-overview{
+    padding: 0 1rem;
+}
+
+.panel:hover{
+    box-shadow: 2px 4px 8px 0 rgb(46 61 73 / 20%);
+}
+
+.panel:hover .panel-title{
+    color: aqua;
+}

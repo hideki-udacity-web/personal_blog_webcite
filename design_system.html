@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+    
+        <meta charset="UTF-8">
+        <title>Design system</title>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+        <link rel="stylesheet" href="/css/design_system/design_system.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap" rel="stylesheet">
+
+    </head>
+
+    
+    <body class="page-template-default">
+        
+        <div class="color-dark-primary-background header">Design System</div>
+
+        <div class="color-primary-background nav">
+            <div class="nav-list">
+                <h2>Foundations</h2>
+                <ol>
+                    <li><a class="anchor" href="#typography">Typography</a></li>
+                    <li><a class="anchor" href="#colors">Colors</a></li>
+                </ol>
+            </div>
+
+            <div class="nav-list">
+                <h2>Components</h2>
+                <ol>
+                    <li><a class="anchor" href="#buttons">Buttons</a></li>
+                    <li><a class="anchor" href="#panels">Panel</a></li>
+                </ol>
+            </div>
+
+            <div class="nav-list">
+                <h2>Patterns</h2>
+                <ol>
+                    <li><a class="anchor" href="#author-info">Author Info</a></li>
+                    <li><a class="anchor" href="#panel-layout">Panel layout</a></li>
+                </ol>
+            </div>
+
+            <div class="nav-list">
+                <h2>Pages</h2>
+                <ol>
+                    <li><a class="anchor" href="/homepage.html">Blog Homepage</a></li>
+                    <li><a class="anchor" href="/blog_post.html">Blog post</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="container">
+        
+            <h3>Foundations</h3>
+
+            <div id="typography" class="section-row">
+                <h4 class="section-header">Typography</h4>
+                <div class="flex-row-wrap">
+                    <div class="section-wrap">
+                        <h1>Heading 1</h1>
+                        <h2>Heading 2</h2>
+                        <h3>Heading 3</h3>
+                        <h4>Heading 4</h4>
+                        <h5>Heading 5</h5>
+                        <h6>Heading 6</h6>
+                        <p>The base types is 16px</p>
+                        <a class="anchor">Anchor</a>
+                        <p><em>Emphasis</em></p>
+                        <p><small>Small</small></p>
+                        <p><Strong>Strong</Strong></p>
+                        <p><u>Underline</u></p>
+                        <blockquote class="quote-short-sentence"><p>Quote short sentence</p></blockquote>
+                        <ul class="ul-wrap">
+                            <li class="list-custom-circle">Unordered list item 1</li>
+                            <li class="list-custom-circle">Unordered list item 2</li>
+                        </ul>
+                        <ol class="ol-wrap">
+                            <li>Ordered list item 1</li>
+                            <li>Ordered list ietm 2</li>
+                        </ol>
+                        <code class="code-word">function()</code>
+                    <pre class="pre-code"><code>article &#123;
+        display&#058; grid&#059;
+        grid-template-columns&#058; 1fr 1fr 10px 740px 10px 1fr 1fr&#059;
+        &#125;</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div id="colors" class="section-row divider">
+                <h4 class="section-header">Colors</h4>
+                    <div class="grid-wrap">
+                        <div class="section-wrap circle-grid">
+                            <div class="circle color-dark-primary-background">&#035;512DA8</div>
+                            <div class="circle color-primary-background">&#035;673AB7</div>
+                            <div class="circle color-accent-background">&#035;00BCD4</div>
+                            <div class="circle color-secondary-background">&#035;2b2929</div>
+                        </div>
+                    </div>
+            </div>
+
+            <h3>Components</h3>
+
+            <div id="buttons" class="section-row">
+                <h4 class="section-header">Buttons</h4>
+                <div class="flex-row-wrap">
+                    <div class="section-wrap section-content-row">
+                        <div class="default-button follow">follow</div>
+                        <div class="default-button subscribe">subscribe</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="panels" class="section-row divider">
+                <h4 class="section-header">Panel</h4>
+                    <div class="flex-row-wrap">
+                        <div class="section-wrap panel-box">
+                            <div class="panel">
+                            <h2 class="panel-title">title</h2>
+                            <p class="panel-overview">over view</p>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+
+            <h3>Patterns</h3>
+            
+            <div id="author-info" class="section-row">
+                <h4 class="section-header">Auther info</h4>
+                    <div class="flex-row-wrap">
+
+                        <div class="author-layout">
+                            <div class="author-header">
+                                <img src="http://via.placeholder.com/100.png" class="author-img">
+                                <div class="author-name">Author Name</div>
+                            </div>
+                            <div class="author-description">Fill this in with a description of the author.</div>
+                            <div class="author-socials">
+                                <img src="http://via.placeholder.com/50x50.png" class="social-button ">
+                                <img src="http://via.placeholder.com/50x50.png" class="social-button ">
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+
+            <div id="panel-layout" class="section-row">
+                <h4 class="section-header">Blog post</h3>
+                    <div class="grid-wrap">
+                        <div class="section-wrap content-layout">  
+                            <div class="panel">
+                                <a class="panel-link" href="blog_post.html"></a>
+                                <h2 class="panel-title">Blog Post 1</h2>
+                                <p class="panel-overview">This is overview</p>
+                            </div> 
+                
+                            <div class="panel">
+                                <h2 class="panel-title">Panel 2</h2>
+                                <p class="panel-overview">This is overview</p>
+                            </div>
+                
+                            <div class="panel">
+                                <h2 class="panel-title">Panel 3</h2>
+                                <p class="panel-overview">This is overview</p>
+                            </div>
+                
+                            <div class="panel">
+                                <h2 class="panel-title">Panel 4</h2>
+                                <p class="panel-overview">This is overview</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p>Copyright 2021</p>
+        </div>
+
+    </body>
+
+
+</html>

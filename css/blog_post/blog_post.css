@@ -1,0 +1,79 @@
+@import url(author.css);
+@import url(/css/utility/text_style.css);
+@import url(/css/utility/color.css);
+@import url(/css/utility/button.css);
+
+    .page-template-default{
+        padding: 0;
+        margin: 0;      
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media(max-width: 900px){
+        .content{
+            display: flex;
+            flex-direction: column;
+            margin: 1rem;
+        }
+    }
+
+    @media(min-width: 901px){
+        .content{
+            display: flex;
+            flex-direction: row;
+            margin: 5% 10% 5% 20%;
+        }
+    }
+
+    .header{
+        padding: 1rem 0;
+    }
+
+    @media(max-width: 900px){
+        .article{
+            width: 100%;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #BDBDBD;
+        }
+    }
+
+    @media(min-width: 901px){
+        .article{
+            width: 70%;
+        }
+    }
+
+    @media(max-width: 900px){
+        .sidebar{
+            flex-grow: 1;
+        }
+    }
+
+    @media(min-width: 901px){
+        .sidebar{
+            flex-grow: 1;
+            padding-left: 1rem;
+        }
+    }
+
+    .footer{
+        display: flex;
+        padding: 1rem;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    
+    .article-fig{
+        margin: 0;
+    }
+
+    .article-img{
+        width: 100%;
+    }
+

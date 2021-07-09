@@ -7,12 +7,11 @@
     <meta charset="UTF-8">
     <title>Homepage</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/homepage/homepage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap" rel="stylesheet">
    
-
 </head>
 
 
@@ -20,54 +19,57 @@
 
     <div class="container">
 
-        <h1 class="header header-layout">Blog</h1>
+        <div class="header color-dark-primary-background">Blog</div>
         
-        <div class="sidebar sidebar-layout">
+        <div class="sidebar color-primary-background">
 
-            <ul class="sidebar-ul">
-                <li class="sidebar-box sidebar-li">Design System</li>
-                <li class="sidebar-box sidebar-li">Link Two</li>
-                <li class="sidebar-box sidebar-li">Link Three</li>
-                <li class="sidebar-box sidebar-li">Link Four</li>
-                <li class="sidebar-li">
-                    <div class="default-button follow ">follow</div>
+            <ul class="ul-wrap">
+                <li><a class="anchor" href="design_system.html">Design System</a></li>
+                <li>Link Two</li>
+                <li>Link Three</li>
+                <li>Link Four</li>
+                <li>
+                    <div class="default-button follow">follow</div>
                 </li>
-                <div class="sidebar-li">
+                <li>
                     <div class="default-button subscribe">subscribe</div>
-                </div>
+                </li>
             </ul>
            
         </div>
 
-        <div class="nav nav-layout">This basic blog uses CSS grid & Flexbox.</div>
+        <div class="nav">This basic blog uses CSS grid & Flexbox.</div>
 
         <div class="content content-layout">  
               
             <div class="panel">
-                <h2>Blog Post 1</h2>
-                <p>This is overview</p>
+                <a class="panel-link" href="blog_post.html"></a>
+                <h2 class="panel-title">Blog Post 1</h2>
+                <p class="panel-overview">This is overview</p>
             </div> 
 
             <div class="panel">
-                <h2>Panel 2</h2>
-                <p>This is overview</p>
+                <h2 class="panel-title">Panel 2</h2>
+                <p class="panel-overview">This is overview</p>
             </div>
 
             <div class="panel">
-                <h2>Panel 3</h2>
-                <p>This is overview</p>
+                <h2 class="panel-title">Panel 3</h2>
+                <p class="panel-overview">This is overview</p>
             </div>
 
             <div class="panel">
-                <h2>Panel 4</h2>
-                <p>This is overview</p>
+                <h2 class="panel-title">Panel 4</h2>
+                <p class="panel-overview">This is overview</p>
             </div>
         </div>
 
-        <div class="footer footer-layout">
+        <div class="footer color-secondary-background">
             <p>Copyright 2021</p>
         </div>
+
     </div>
+
 </body>
 
 

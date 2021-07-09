@@ -1,0 +1,24 @@
+.color-dark-primary-background{
+    background-color: #512DA8;
+    color: white;
+}
+
+.color-primary-background{
+    background-color: #673AB7;
+    color: white;
+}
+
+.color-secondary-background{
+    background-color: #2b2929;
+    color: white;
+}
+
+.color-accent-background{
+    background-color: #00BCD4;
+    color: white;
+}
+
+.color-accent-text{
+    color: #00BCD4;
+}
+

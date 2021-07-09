@@ -1,0 +1,76 @@
+.quote-short-sentence{
+    display: inline-block;
+    border-left: 4px solid gray;
+    background-color: rgba(0, 0, 0, 5%);
+    padding: 0 1em;
+    margin-left: 0;
+}
+
+.code-word{
+    background-color: rgba(0, 0, 0, 5%);
+    border-radius: 4px;
+    padding: 0.2em 0.4em;
+}
+
+.pre-code{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 5%);
+    border-left: 4px solid #00BCD4;
+    white-space: pre-wrap;
+}
+
+.ul-wrap{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ol-wrap{
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.list-custom-circle{
+    position: relative;
+    margin-left: 1em;
+}
+
+.list-custom-circle::before{
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 0.5rem;
+    top: 40%;
+    left: -1em;
+}
+
+.anchor{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.anchor::after{
+    content: "";
+    display: block;
+    width: 0;
+    transition: width, 0.3s;
+    border-bottom: 1px solid #00BCD4;
+}
+
+.anchor:hover::after{
+    width: 100%;
+}
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    color: #BDBDBD;
+    font-size: small;
+}

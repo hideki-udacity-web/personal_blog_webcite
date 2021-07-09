@@ -1,0 +1,47 @@
+.default-button{
+    display: inline-block;
+    height: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+.social-button{
+    display: block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 1rem;
+    box-shadow: 2px 4px 8px 0 rgb(46 61 73 / 20%);
+    transition: box-shadow, 0.3s;
+}
+
+.social-button:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, 0.15);
+}
+
+.follow{
+    background-color: #00BCD4;
+    color: white;
+    box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, 0.15);
+    transition: box-shadow, background-color, 0.3s;
+}
+
+.follow:hover{
+    box-shadow: 2px 4px 8px 0 rgb(46 61 73 / 20%);
+    background-color: #049baf;
+}
+
+.subscribe{
+    color: #00BCD4;
+    border: 1px solid #00BCD4;
+    background-color: white;
+    box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, 0.15);
+    transition: box-shadow, backgrond-color, 0.3s;
+}
+
+.subscribe:hover{
+    box-shadow: 2px 4px 8px 0 rgb(46 61 73 / 20%);
+    background-color: rgb(207, 207, 207);
+}
