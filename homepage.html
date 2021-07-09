@@ -19,9 +19,9 @@
 
     <div class="container">
 
-        <div class="header color-dark-primary-background">Blog</div>
+        <div role="banner" class="header color-dark-primary-background">Blog</div>
         
-        <div class="sidebar color-primary-background">
+        <div role="navigation" class="sidebar color-primary-background">
 
             <ul class="ul-wrap">
                 <li><a class="anchor" href="design_system.html">Design System</a></li>
@@ -29,38 +29,50 @@
                 <li>Link Three</li>
                 <li>Link Four</li>
                 <li>
-                    <div class="default-button follow">follow</div>
-                </li>
-                <li>
-                    <div class="default-button subscribe">subscribe</div>
+                    <div role="button" class="default-button follow">follow</div>
                 </li>
             </ul>
-           
+
+            <form>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fugiat eos aut dignissimos non! Aperiam non esse obcaecati facilis omnis! Unde minima perspiciatis reprehenderit recusandae placeat tempora suscipit, eos dolore?</p>
+                
+                    <div class="form-container">
+                        <input class="subscribe-form" type="text" placeholder="Name" name="name" required><br>
+                        <input class="subscribe-form" type="text" placeholder="Email address" name="mail" required><br>
+                        <label>
+                            <input type="checkbox" checked="checked" name="accept">Daily Newsletter 
+                        </label>
+                    </div>
+                    <div class="form-container">
+                        <button type="submit" class="default-button subscribe subscribe-form">subscribe</button>
+                    </div>
+                
+            </form>
         </div>
 
         <div class="nav">This basic blog uses CSS grid & Flexbox.</div>
 
-        <div class="content content-layout">  
+        <div role="main" class="content content-layout">  
               
             <div class="panel">
                 <a class="panel-link" href="blog_post.html"></a>
                 <h2 class="panel-title">Blog Post 1</h2>
-                <p class="panel-overview">This is overview</p>
+                <p class="panel-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed autem hic non necessitatibus? Deleniti nemo modi officia animi tempora ea veniam. Commodi quisquam necessitatibus aperiam accusamus nihil saepe cum.</p>
             </div> 
 
             <div class="panel">
                 <h2 class="panel-title">Panel 2</h2>
-                <p class="panel-overview">This is overview</p>
+                <p class="panel-overview">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere repellat, officia sint nam blanditiis qui maiores placeat obcaecati voluptatum alias in rem quibusdam, quae deserunt exercitationem, possimus autem error quos?</p>
             </div>
 
             <div class="panel">
                 <h2 class="panel-title">Panel 3</h2>
-                <p class="panel-overview">This is overview</p>
+                <p class="panel-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum non eaque consectetur quos mollitia sunt deleniti vitae nobis id fugiat impedit soluta quod, optio dolores cumque. Incidunt quae optio atque.</p>
             </div>
 
             <div class="panel">
                 <h2 class="panel-title">Panel 4</h2>
-                <p class="panel-overview">This is overview</p>
+                <p class="panel-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, corrupti explicabo! Nisi hic, distinctio asperiores placeat atque natus ipsum explicabo, expedita suscipit, magnam dolores eius. Tempora dolores sed maxime iusto?</p>
             </div>
         </div>
 

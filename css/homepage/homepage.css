@@ -62,13 +62,24 @@
         grid-area: sd;
         padding: 2rem;
     }
-    
+
     .sidebar ul .anchor{
         color: white;
     }
 
     .sidebar li{
         padding: 1rem;
+    }
+
+    .form-container{
+        padding: 0.5rem;
+        background-color: white;
+        color: black;
+    }
+
+    .subscribe-form{
+        box-sizing: border-box;
+        width: 100%;
     }
 
     @media(min-width: 600px){

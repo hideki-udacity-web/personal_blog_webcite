@@ -57,7 +57,7 @@
 
     @media(min-width: 901px){
         .sidebar{
-            flex-grow: 1;
+            width: 30%;
             padding-left: 1rem;
         }
     }
@@ -75,5 +75,11 @@
 
     .article-img{
         width: 100%;
+    }
+
+    .divider{
+        border-bottom: 1px solid #BDBDBD;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
     }
 

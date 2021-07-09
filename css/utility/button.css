@@ -1,9 +1,12 @@
 .default-button{
+    appearance: none;
     display: inline-block;
-    height: 1.5rem;
+    margin: 0;
+    padding: 0;
+    border: none;
     text-transform: uppercase;
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
+    font-size: 16px;
+
 }
 
 .social-button{
@@ -23,6 +26,8 @@
 
 .follow{
     background-color: #00BCD4;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
     color: white;
     box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, 0.15);
     transition: box-shadow, background-color, 0.3s;
@@ -34,7 +39,9 @@
 }
 
 .subscribe{
+    padding: 0.5rem 1rem;
     color: #00BCD4;
+    border-radius: 5px;
     border: 1px solid #00BCD4;
     background-color: white;
     box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, 0.15);
@@ -43,5 +50,5 @@
 
 .subscribe:hover{
     box-shadow: 2px 4px 8px 0 rgb(46 61 73 / 20%);
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(236, 236, 236);
 }
