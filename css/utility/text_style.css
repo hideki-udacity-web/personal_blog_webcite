@@ -50,8 +50,8 @@
 
 .anchor{
     display: inline-block;
-    color: black;
     text-decoration: none;
+    color: #00BCD4;
 }
 
 .anchor::after{
@@ -60,6 +60,10 @@
     width: 0;
     transition: width, 0.3s;
     border-bottom: 1px solid #00BCD4;
+}
+
+.anchor:active{
+    color: #01E1FF;
 }
 
 .anchor:hover::after{

@@ -3,6 +3,7 @@
     display: inline-block;
     width: inherit;
     height: inherit;
+    overflow: hidden;
     border-radius: 5px;
     background-color: #80808067;
     box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, 0.15);
@@ -31,5 +32,9 @@
 }
 
 .panel:hover .panel-title{
-    color: aqua;
+    color: #00BCD4;
+}
+
+.panel:active .panel-title{
+    color: #01E1FF;
 }
