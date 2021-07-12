@@ -115,9 +115,11 @@ html{
     }
 }
 
-.nav-list{
+.nav-list p{
     margin-left: 1rem;
 }
+
+
 
 .section-typography{
     display: inline-block;
